@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Chistes Graciosos Para tu Móvil</name>
+<icon src="images.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash.jpg" gap:platform="android" gap:density="ldpi"/>
+<gap:splash src="splash.jpg" gap:platform="android" gap:density="mdpi"/>
+<gap:splash src="splash.jpg" gap:platform="android" gap:density="hdpi"/>
+<gap:splash src="splash.jpg" gap:platform="android" gap:density="xhdpi"/>
+<description>
+¡Los mejores chistes para tu celular!
+</description>
+<preference name="permissions" value="none"/>
+
+<author href="https://atraids.com" email="eleven@null.net">
+Arturo Díaz
+</author>
+
+</widget>
